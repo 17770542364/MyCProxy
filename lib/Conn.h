@@ -18,4 +18,4 @@ protected:
     bool inBufferEmpty_;
 };
 
-typedef std::__shared_ptr<Conn> SP_Conn;
+typedef std::shared_ptr<Conn> SP_Conn;
