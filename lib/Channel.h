@@ -1,3 +1,11 @@
+/*
+ * @Author: Jitong Zeng
+ * @Date: 2022-07-15 17:13:42
+ * @LastEditors: Jitong Zeng
+ * @LastEditTime: 2022-07-18 21:56:25
+ * @FilePath: /MyCProxy/lib/Channel.h
+ * @Descripttion: 
+ */
 #pragma once;
 #include <unistd.h>
 #include <functional>
@@ -28,7 +36,7 @@ public:
     void setPostHandler(EventHandler handler) { postHandler_ = handler; }
     void setChannelWoner(SP_ChannelOwer owner) { belong_to_ = owner; }
     void handleEvents();
-    bool isPeerEvents() { return peerClosed_; }
+    bool isPeerClosed() { return peerClosed_; }
     void setNeedCloseWhenDelete(bool needClose) { needCloseWhenDelete = needClose; }
     
 

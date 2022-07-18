@@ -1,3 +1,11 @@
+/*
+ * @Author: Jitong Zeng
+ * @Date: 2022-07-15 17:13:42
+ * @LastEditors: Jitong Zeng
+ * @LastEditTime: 2022-07-18 20:35:33
+ * @FilePath: /MyCProxy/lib/Conn.h
+ * @Descripttion: 
+ */
 #pragma once
 #include <memory>
 

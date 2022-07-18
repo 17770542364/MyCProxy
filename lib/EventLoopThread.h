@@ -1,3 +1,11 @@
+/*
+ * @Author: Jitong Zeng
+ * @Date: 2022-07-15 17:13:42
+ * @LastEditors: Jitong Zeng
+ * @LastEditTime: 2022-07-18 20:36:08
+ * @FilePath: /MyCProxy/lib/EventLoopThread.h
+ * @Descripttion: 
+ */
 #pragma once
 #include <condition_variable>
 #include <functional>

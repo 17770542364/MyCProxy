@@ -1,3 +1,11 @@
+/*
+ * @Author: Jitong Zeng
+ * @Date: 2022-07-15 17:13:42
+ * @LastEditors: Jitong Zeng
+ * @LastEditTime: 2022-07-18 20:35:25
+ * @FilePath: /MyCProxy/lib/Channel.cpp
+ * @Descripttion: 
+ */
 #include "Channel.h"
 
 #include <sys/epoll.h>

@@ -1,3 +1,11 @@
+/*
+ * @Author: Jitong Zeng
+ * @Date: 2022-07-15 17:13:42
+ * @LastEditors: Jitong Zeng
+ * @LastEditTime: 2022-07-18 20:36:06
+ * @FilePath: /MyCProxy/lib/EventLoopThread.cpp
+ * @Descripttion: 
+ */
 #include <assert.h>
 #include <exception>
 #include <iostream>
