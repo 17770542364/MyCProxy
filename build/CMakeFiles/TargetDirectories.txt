@@ -1,0 +1,12 @@
+/home/zeng/work_home/MyCProxy/build/CMakeFiles/rebuild_cache.dir
+/home/zeng/work_home/MyCProxy/build/CMakeFiles/clang-tidy.dir
+/home/zeng/work_home/MyCProxy/build/CMakeFiles/edit_cache.dir
+/home/zeng/work_home/MyCProxy/build/lib/CMakeFiles/rebuild_cache.dir
+/home/zeng/work_home/MyCProxy/build/lib/CMakeFiles/lib.dir
+/home/zeng/work_home/MyCProxy/build/lib/CMakeFiles/edit_cache.dir
+/home/zeng/work_home/MyCProxy/build/server/CMakeFiles/rebuild_cache.dir
+/home/zeng/work_home/MyCProxy/build/server/CMakeFiles/Server.dir
+/home/zeng/work_home/MyCProxy/build/server/CMakeFiles/edit_cache.dir
+/home/zeng/work_home/MyCProxy/build/client/CMakeFiles/rebuild_cache.dir
+/home/zeng/work_home/MyCProxy/build/client/CMakeFiles/Client.dir
+/home/zeng/work_home/MyCProxy/build/client/CMakeFiles/edit_cache.dir

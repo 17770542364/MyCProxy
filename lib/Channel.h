@@ -2,11 +2,11 @@
  * @Author: Jitong Zeng
  * @Date: 2022-07-15 17:13:42
  * @LastEditors: Jitong Zeng
- * @LastEditTime: 2022-07-18 21:56:25
+ * @LastEditTime: 2022-07-24 15:02:12
  * @FilePath: /MyCProxy/lib/Channel.h
  * @Descripttion: 
  */
-#pragma once;
+#pragma once
 #include <unistd.h>
 #include <functional>
 #include <memory>

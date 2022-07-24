@@ -2,7 +2,7 @@
  * @Author: Jitong Zeng
  * @Date: 2022-07-21 19:44:42
  * @LastEditors: Jitong Zeng
- * @LastEditTime: 2022-07-22 22:33:23
+ * @LastEditTime: 2022-07-24 14:31:27
  * @FilePath: /MyCProxy/server/Tunnel.cpp
  * @Descripttion: 
  */
@@ -150,7 +150,7 @@ void Tunnel::freeProxyConn(std::string proxy_id) {
     }
     proxy_conn_map_.erase(proxy_id);
     {
-        std::unique_lock<mutex> lock(free_proxy_conns_mutex_);
+        std::unique_lock<std::mutex> lock(free_proxy_conns_mutex_);
         free_proxy_conns_.emplace_back(proxyConn);
     }
 }

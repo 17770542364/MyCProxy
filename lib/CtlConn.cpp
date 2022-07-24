@@ -116,7 +116,7 @@ void CtlConn::handleWrite() {
 
 void CtlConn::postHandle() {
     // 对端关闭且本地缓冲区已经读完
-    if (inBufferEmpty_ && channel_->isPeerEvents()) {
+    if (inBufferEmpty_ && channel_->isPeerClosed()) {
         closeHandler_(shared_from_this());
         return;
     }

@@ -2,7 +2,7 @@
  * @Author: Jitong Zeng
  * @Date: 2022-07-21 19:44:29
  * @LastEditors: Jitong Zeng
- * @LastEditTime: 2022-07-22 21:30:14
+ * @LastEditTime: 2022-07-24 15:08:34
  * @FilePath: /MyCProxy/server/Server.cpp
  * @Descripttion: 
  */
@@ -127,6 +127,11 @@ void Server::newProxyConnHandler() try {
     }
 } catch (const std::exception &e) {
     std::cout << "new proxy conn handler err: " << e.what() << std::endl;
+}
+
+void Server::postHandler() {
+    ctl_acceptor_->setEvents(SERVER_LISTEN_EPOLL_EVENTS);
+    loop_->updatePoller(ctl_acceptor_);
 }
 
 void Server::claimProxyConn(void *msg, SP_ProxyConn conn) {
